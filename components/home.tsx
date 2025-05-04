@@ -64,9 +64,9 @@ export function Home() {
         <div></div>
       </div>
 
-      <div className="w-full max-w-[1400px] mx-auto min-h-[calc(100vh-80px)] flex flex-col-reverse md:flex-row items-center justify-center gap-8">
+      <div className="w-full max-w-[1400px] mx-auto min-h-[calc(100vh-80px)] pt-24 md:pt-32 flex flex-col-reverse md:flex-row items-center justify-center gap-8">
         <motion.div 
-          className="w-full md:w-1/2 flex flex-col justify-center px-6 md:px-12"
+          className="w-full md:w-3/5 lg:w-[65%] flex flex-col justify-center px-6 md:px-12"
           variants={containerVariants} 
           initial="hidden" 
           animate="visible"
@@ -114,7 +114,7 @@ export function Home() {
           </motion.div>
         </motion.div>
         <motion.div 
-          className="w-full md:w-1/2 flex justify-center items-center h-full"
+          className="w-full md:w-2/5 lg:w-[35%] flex justify-center items-center h-full"
           variants={imageVariants} 
           initial="hidden" 
           animate="visible"
