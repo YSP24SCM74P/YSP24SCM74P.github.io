@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   keywords: 'Yogeshwar Pawade, Software Engineer, Full Stack Developer, AI/ML Engineer, Portfolio, React, Next.js, TypeScript',
   authors: [{ name: 'Yogeshwar Pawade' }],
   creator: 'Yogeshwar Pawade',
+  icons: {
+    icon: '/yp-logo.svg',
+    shortcut: '/yp-logo.svg',
+    apple: '/yp-logo.svg',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: '/yp-logo.svg',
+    },
+  },
 }
 
 export default function RootLayout({
